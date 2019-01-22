@@ -7,6 +7,8 @@ categories:
 last_modified_at: 2019-1-22
 ---
 
+This post is about testing on embedding markdowned jupyter notebook
+
 
 ```python
 %load_ext watermark
