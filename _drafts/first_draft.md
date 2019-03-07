@@ -17,8 +17,7 @@ excerpt: "First writing, not sure how I'm gonna structure the post"
 
 3. Data
    * <strike>How I got the data</strike>
-   * Summary of data wrangling
-   * 
+   * <strike>Summary of data wrangling</strike>
 
 ------
 
@@ -250,7 +249,7 @@ You can see that there are empty values. What I need to visualize the data is
 ```python
 ['bizesNm', 'ctprvnNm', 'signguNm', 'adongNm', 'rdnmAdr', 'lon', 'lat']
 ```
-
+So let's check it out
 ```python
 df.isnull().sum()[['bizesNm', 'ctprvnNm', 'signguNm', 'adongNm', 'rdnmAdr', 'lon', 'lat']]
 ```
